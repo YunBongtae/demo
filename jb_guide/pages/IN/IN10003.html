@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no, address=no, email=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>예금 상세거래내역 | 전계좌조회 | 조회 | 전북은행</title>
+<link rel="stylesheet" type="text/css" href="../../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../../css/content.css" />
+<link rel="stylesheet" type="text/css" href="../../css/pages.css" />
+<link rel="stylesheet" type="text/css" href="../../css/etc.css" />
+
+</head>
+<body>
+<div id="wrap">
+<!-- header 영역( 타이틀(back 버튼, 메뉴 버튼) ) -->
+<header id="header">
+	<button class="back">뒤로가기</button>
+	<h1>거래내역</h1>
+	<button class="menu">메뉴</button>
+</header>
+<!-- content 헤더 제외한 페이지 내용-->
+<div id="content" class="in">
+	<!-- section 스크롤이 되는 영역 -->
+	<section>
+		<div class="detail_view blue">
+			<div class="account_box line2" data-rel="select">
+				<a href="#jb_bank">
+					<p class="account_data"><em class="name">예금상품명</em><span class="sub_name">통장별명</span></p>	
+					<em class="num01">1111-234-22221</em>
+				</a>
+			</div>
+			<ul class="item_list01 last">
+				<li class="flexSb"><em class="item">잔액</em><p class="num02"><strong>150,000</strong>원</p></li>
+			</ul>
+			<div class="btn_right">
+				<button type="button" class="btn01 backN width03">즉시이체</button>
+			</div>
+		</div>
+		<div class="tab_box2 two" data-rel="tab_box">
+			<ul class="">
+				<li class="on" data-rel="tab01"><a href="#jb_bank">최근거래내역</a></li>
+				<li data-rel="tab02" class=""><a href="#jb_bank">과거거래내역</a></li>
+			</ul>
+		</div>
+		<div>
+			<div class="tab01">
+				<div class="box02">
+					<div class="tab_btn four" data-rel="tab_btn">
+						<ul>
+							<span>
+							<li class="on"><a href="#jb_bank">1주일</a></li>
+							<li><a href="#jb_bank">15일</a></li>
+							<li><a href="#jb_bank">1개월</a></li>
+							<li><a href="#jb_bank">3개월</a></li>
+							</span>
+						</ul>
+					</div>
+				</div>
+				<div class="slide_box2 " data-rel="slide_box">
+					<div class="slide_title" data-rel="slide_title"><a href="#jb_bank">조회기간 <time><strong>2015.10.01 ~ 2015.10.07</strong></time><button type="button" class="search_link">검색</button><span class="hidden_text">내용열기</span></a></div><!-- mod : 20160107(Jerrold) -->
+					<div class="slide_content">
+						<div class="date_select flexSb">
+							<div class="date">
+								<span>
+									<input type="date" class="input" title="조회기간 시작일">
+								</span>
+								<a href="#none" id="jexCalendar0"><span class="date_icon"></span></a>
+							</div>
+							<span class="input_bar"></span>						
+							<div class="date">
+								<span>
+									<input type="date" class="input" title="조회기간 종료일">
+								</span>
+								<a href="#none" id="jexCalendar1"><span class="date_icon"></span></a>
+							</div>
+						</div>
+						<p class="form_mes ty2">* 금일부터 2015.06.01 까지 조회 가능합니다.<br>
+						3개월 이후의 거래건은 과거거래내역 탭 선택 후 조회하시기 바랍니다.</p>
+    					<div class="opt_form center">
+							<span><input type="radio" class="radio" id="radio01" name="radio1" checked="checked"/><label for="radio01">최근거래순</label>	</span>
+							<span><input type="radio" class="radio" id="radio02" name="radio1"/><label for="radio02">과거거래순</label></span>
+						</div>
+						<div class="btn_center inner">
+							<button type="button" class="btn02">조회</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<ul class="list02">
+						<li>
+							<div class="both_form flexSb">
+								<div class="list_left">
+									<span class="time">2015.09.30 21:04</span>
+									<span class="name">홍전북</span>
+									<p class="sub_name">스마트뱅킹</p>
+								</div>
+								<div class="list_right">
+									<span class="withdraw"><em class="plus"></em>입금</span>
+									<p class="withdraw"><span class="num01">50,000</span>원</p>
+									<span class="money02">잔액 150,000원</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="both_form flexSb">
+								<div class="list_left">
+									<span class="time">2015.09.29 17:04</span>
+									<span class="name">나전북</span>
+									<p class="sub_name">스마트뱅킹</p>
+								</div>
+								<div class="list_right">
+									<span class="deposit"><em class="minus"></em>출금</span>
+									<p class="deposit"><span class="num01">50,000</span>원</p>
+									<span class="money02">잔액 0원</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="both_form flexSb">
+								<div class="list_left">
+									<span class="time">2015.09.28 17:04</span>
+									<span class="name">전주식당</span>
+									<p class="sub_name">인터넷</p>
+								</div>
+								<div class="list_right">
+									<span class="withdraw"><em class="plus"></em>입금</span>
+									<p class="withdraw"><span class="num01">50,000</span>원</p>
+									<span class="money02">잔액 50,000원</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="both_form flexSb">
+								<div class="list_left">
+									<span class="time">2015.09.28 17:04</span>
+									<span class="name">전주식당</span>
+									<p class="sub_name">인터넷</p>
+								</div>
+								<div class="list_right">
+									<span class="deposit"><em class="minus"></em>출금</span>
+									<p class="deposit"><span class="num01">50,000</span>원</p>
+									<span class="money02">잔액 0원</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<button type="button" class="more_box">
+						<em class="more_view"></em>더보기
+					</button>					
+				</div>
+				<div class="list_none">
+					조회내역이 없습니다.
+				</div>		
+			</div>
+			<div class="tab02 ds_none">
+				<div class="box02">
+					<div class="tab_btn four" data-rel="tab_btn">
+						<ul>
+							<li class="on">3개월</li>
+							<li>6개월</li>
+							<li>9개월</li>
+							<li>1년</li>
+						</ul>
+					</div>
+				</div>
+				<div class="slide_box2 " data-rel="slide_box">
+					<div class="slide_title" data-rel="slide_title">조회기간 <time>2015.10.01 ~ 2015.10.07</time><span class="search_link"></span></div>
+					<div class="slide_content">
+						<div class="date_select flexSb">
+							<div class="date">
+								<input type="date" class="input" title="조회기간 시작일">
+								<span class="date_icon"></span>
+							</div>
+							<span class="input_bar"></span>						
+							<div class="date">
+								<input type="date" class="input" title="조회기간 종료일">
+								<span class="date_icon"></span>
+							</div>
+						</div>
+						<p class="form_mes ty2">* 2015.05.31부터 조회 가능합니다.<br>
+						3개월 이내의 거래건은 최근거래내역 탭 선택 후 조회하기 바랍니다.</p>
+    					<div class="opt_form center">
+							<span><input type="radio" class="radio" id="radio03" name="radio2" checked="checked"/><label for="radio03">최근거래순</label>	</span>
+							<span><input type="radio" class="radio" id="radio04" name="radio2"/><label for="radio04">과거거래순</label></span>
+						</div>
+						<div class="btn_center inner">
+							<button type="button" class="btn02">조회</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<ul class="list02">
+						<li>
+							<div class="both_form flexSb">
+								<div class="list_left">
+									<span class="time">2015.09.30 21:04</span>
+									<span class="name">홍전북</span>
+									<p class="sub_name">스마트뱅킹</p>
+								</div>
+								<div class="list_right">
+									<span class="withdraw"><em class="plus"></em>입금</span>
+									<p class="withdraw"><span class="num01">50,000</span>원</p>
+									<span class="money02">잔액 150,000원</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="both_form flexSb">
+								<div class="list_left">
+									<span class="time">2015.09.29 17:04</span>
+									<span class="name">나전북</span>
+									<p class="sub_name">스마트뱅킹</p>
+								</div>
+								<div class="list_right">
+									<span class="deposit"><em class="minus"></em>출금</span>
+									<p class="deposit"><span class="num01">50,000</span>원</p>
+									<span class="money02">잔액 0원</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<button type="button" class="more_box">
+						<em class="more_view"></em>더보기
+					</button>
+				</div>
+				<div class="list_none">
+					조회내역이 없습니다.
+				</div>	
+			</div>
+		</div>
+	</section>	
+</div>
+<!--  content end -->
+
+</div>
+
+<!-- 사용자 script 파일 시작 -->
+<script src="../../js/jquery-2.1.1.min.js"></script>
+<script src="../../js/iscroll.js"></script>
+<script src="../../js/common.js"></script>
+
+</body>
+</html>

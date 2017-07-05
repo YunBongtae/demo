@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>전북은행</title>
+<link rel="stylesheet" type="text/css" href="../../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../../css/content.css" />
+<link rel="stylesheet" type="text/css" href="../../css/pages.css" />
+<link rel="stylesheet" type="text/css" href="../../css/etc.css" />
+<link rel="stylesheet" type="text/css" href="../../css/guide.css" />
+
+</head>
+<body class="sub">
+	<h1 class="guide_h1">dl_box 가이드</h1>
+	<section>
+		<h2 class="guide_h2">dl_box</h2>
+		<div class="">
+			<dl class="dl_box">
+				<dt class="flexSb"><span><label for="select1">사용자번호(ID)</label></span><button type="button" class="btn01 paW">아이디 조회</button></dt>
+				<dd>
+					<select id="select1" class="select">
+						<option>선택1</option>
+						<option>선택2</option>
+					</select>
+					<button type="button" class="btn01 paW">출금가능액 조회</button>
+				</dd>
+				<dt><label for="label1">출금계좌</label></dt>
+				<dd>
+					<input type="text" id="label1" class="input" placeholder="고객명을 입력하세요"/>
+					
+					<ul class="form_list "><!-- ds_none 삭제하면 보여집니다 -->
+						<li class="big_line flexSb"><em>출금가능액</em><p><span class="num01">38,000,000</span> <span class="won">원</span></p></li>
+						<li class="small_line flexSb"><em>1회 이체한도</em><p><span class="num02">8,000,000</span> <span class="won">원</span></p></li>
+						<li class="small_line flexSb"><em>1일 이체한도</em><p><span class="num02">100,000</span> <span class="won">원</span></p></li>
+					</ul>
+					<div class="connote_box">
+						<input type="tel" id="label2" class="input" title="이체금액 입력" placeholder="이체금액 입력">
+						<span class="text">원</span>					
+					</div>
+				</dd>
+				<dt>실명확인방법</dt>
+				<dd>
+				<dl class="dl_list ty3">
+					<dt>영상통화 인증</dt>
+					<dd>
+						<p class="list_normal">별도의 앱을 통해 영상통화를 진행하여 실명확인을 하는 방법으로, 영상통화하실 시간대를 지정하시면 선택하신 시간대에 연락을 드려 인증을 진행합니다.</p>
+					</dd>
+				</dl>
+			</dd>
+			</dl>
+		</div>
+		<h2 class="guide_h2">dl_box2 flexSb</h2>
+		<div class="">
+			<dl class="dl_box2 flexSb">
+				<dt><span><label for="select2">그룹별 보기</label></span></dt>
+				<dd>
+					<select id="select2" class="select">
+						<option>선택1</option>
+						<option>선택2</option>
+					</select>
+				</dd>
+			</dl>
+		</div>
+		<h2 class="guide_h2">right_form_radio</h2>
+		<div class="box04">
+			<div class="">
+				<dl class="title01 ty2">
+					<dt class="name">실행방법 선택</dt>
+				</dl>
+			</div>
+			<div>
+				<dl class="dl_list right_form_radio">
+					<dt><label for="radio01">수동실행</label></dt>
+					<dd>
+						<div class="left_text">
+							<p class="list_normal last">전북M뱅크 앱 실행, 로그인에 접근하여 세이프터치 로그인 직접 선택</p>
+						</div>
+						<span class="right_radio">
+							<input type="radio" class="radio" title="수동실행" id="radio01" name="radio1">
+						</span>
+					</dd>
+				</dl>
+				<dl class="dl_list right_form_radio">
+					<dt><label for="radio02">자동실행</label></dt>
+					<dd>
+						<div class="left_text">
+							<p class="list_normal last">전북M뱅크 앱 실행 후, 카드터치 시 세이프터치 로그인으로 이동</p>
+						</div>
+						<span class="right_radio">
+							<input type="radio" class="radio" title="자동실행" id="radio02" name="radio1">
+						</span>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</section>
+<script src="../../js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="../../js/iscroll.js"></script>
+<script src="../../js/common.js" type="text/javascript"></script>
+</body>
+</html>

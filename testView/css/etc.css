@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.mL20 { margin-left: 20px; }
+
+.pa-box { padding:10px 0; }
+
+.tx-r { text-align: right; }
+.tx-l { text-align: left; }
+.tx-c { text-align: center; }
+
+.hidden-text { position: absolute; top: -200px; left: -200px; }
+
+.font-st { font-family: tahoma; }
