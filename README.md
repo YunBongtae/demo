@@ -174,3 +174,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+Java version required to run Pinpoint:
+
+Pinpoint Version | Agent | Collector | Web
+---------------- | ----- | --------- | ---
+1.0.x | 6-8 | 6-8 | 6-8
+1.1.x | 6-8 | 7-8 | 7-8
+1.5.x | 6-8 | 7-8 | 7-8
+1.6.x | 6-8 | 7-8 | 7-8
+1.7.x | 6-8 | 8 | 8
+1.8.0 | 6-10 | 8 | 8 
+1.8.1+ | 6-11 | 8 | 8 
