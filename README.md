@@ -78,10 +78,9 @@ Supported (Optimized) | Supported | Supported | Not supported
 The api with caver is a public API. You can also use the api from the outside.
 You can use caver function by using api.
 For more information on how to use caver, please visit 'https://docs.klaytn.com/'
+You can see how wallet works and how to use caver in the following sites.
 ```
-> docs site
-
- * https://docs.klaytn.com/
+* https://docs.klaytn.com/
 
 ## License
 Wallet service is released under the [MIT license](https://github.com/ground-x/klaytnwallet-baobab-frontend/LICENSE).
