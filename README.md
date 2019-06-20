@@ -57,7 +57,7 @@ Supported (Optimized) | Supported | Supported | Not supported
 
 
 ### 5) Describe how to use the front api
-> wallet site
+> Actual service wallet site
 ``` 
 1. Baobab testnet 
   - https://baobab.klaytnwallet.com/
@@ -65,7 +65,12 @@ Supported (Optimized) | Supported | Supported | Not supported
 2. Main Network
   - https://cypress.klaytnwallet.com
   - This site uses real klay. Take care when using your wallet. The Faucet menu is not available.
+
+* Check out the site link below
 ```
+* Baobab testnet url : https://baobab.klaytnwallet.com/
+* Main Network url : https://cypress.klaytnwallet.com
+
 > Api Type
 ``` 
 1. api using caver ( Everything except KLAY Faucet )
@@ -82,7 +87,7 @@ You can see how wallet works and how to use caver in the following sites.
 ```
 * klaytn docs url : https://docs.klaytn.com/
 
-## License
+### License
 Wallet service is released under the [MIT license](https://github.com/ground-x/klaytnwallet-baobab-frontend/LICENSE).
 
 ``` 
