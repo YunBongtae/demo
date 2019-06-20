@@ -81,7 +81,7 @@ For more information on how to use caver, please visit 'https://docs.klaytn.com/
 ```
 > docs site
 
-https://docs.klaytn.com/
+ * https://docs.klaytn.com/
 
 ## License
 Wallet service is released under the [MIT license](https://github.com/ground-x/klaytnwallet-baobab-frontend/LICENSE).
