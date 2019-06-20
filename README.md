@@ -21,7 +21,6 @@ table of contents
 ```
 The wallet project is optimized for crypto-js version "0.8.3-1".
 Caver-js needs confirmation before updating.
-wallet project crypto-js
 ```
 
 ### 3) Directory Structure
@@ -81,6 +80,7 @@ You can use caver function by using api.
 For more information on how to use caver, please visit 'https://docs.klaytn.com/'
 ```
 > docs site
+
 https://docs.klaytn.com/
 
 ## License
