@@ -125,7 +125,7 @@ Supported (Optimized) | Supported | Supported | Not supported
 
 
 ### 5) Describe how to use the front api
-- wallet site
+>wallet site
 ``` 
 1. Baobab testnet 
   - https://baobab.klaytnwallet.com/
@@ -134,14 +134,14 @@ Supported (Optimized) | Supported | Supported | Not supported
   - https://cypress.klaytnwallet.com
   - This site uses real klay. Take care when using your wallet. The Faucet menu is not available.
 ```
-- Api Type
+>Api Type
 ``` 
 1. api using caver ( Everything except KLAY Faucet )
   - Because it uses caver, it can be used outside.
 2. EN Backend api ( KLAY Faucet )
   - Since it is the backend area of ​​groundx, it can not be used from the outside.
 ```
-- How to use the wallet API 
+>How to use the wallet API 
 ``` 
 The api with caver is a public API. You can also use the api from the outside.
 You can use caver function by using api.
