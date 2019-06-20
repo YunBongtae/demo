@@ -118,11 +118,11 @@ src (root)              // index.js, App.js, store.js(Redux store), reducer.js(R
 
 ### 4) Web browser support scope
 >Supported browsers.
-``` 
+
 Chrome | Safari | Firefox | IE Edge*
 ----------------------- | ---------------- | ---------------- | ----------------
 Supported (Optimized) | Supported | Supported | Not supported
-``` 
+
 
 ### 5) Describe how to use the front api
 - wallet site
@@ -174,9 +174,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ``` 
-Java version required to run Pinpoint:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
